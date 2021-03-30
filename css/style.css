@@ -23,7 +23,7 @@
   --backdrop-color: rgba(0, 0, 0, 0.2);
   --cubic: cubic-bezier(0.4, 0, 0.2, 1);
   --modal-input: rgba(255, 255, 255, 0.3);
-  --botton-shadow: rgba(0, 0, 0, 0.15);
+  --button-shadow: rgba(0, 0, 0, 0.15);
   --modal-border: rgba(33, 33, 33, 0.2);
   --modal--color: rgba(117, 117, 117, 0.5);
 }
@@ -520,7 +520,6 @@ img {
   cursor: pointer;
   color: var(--element-color);
   transition: background-color 250ms var(--cubic);
-  transition: background-color 250ms var(--cubic);
 }
 
 .subscription-icon {
@@ -794,7 +793,7 @@ img {
   bottom: 40px;
   border-radius: 4px;
   border: 1px solid transparent;
-  box-shadow: 0px 4px 4px var(--botton-shadow);
+  box-shadow: 0px 4px 4px var(--button-shadow);
   align-self: center;
   padding: 10px 55px;
   min-width: 200px;
